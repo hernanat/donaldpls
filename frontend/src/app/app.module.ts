@@ -9,7 +9,8 @@ import { WallBreakerComponent } from './wall-breaker/wall-breaker.component';
 import { BannerComponent } from './banner/banner.component';
 import {routing} from './app.routes';
 import { NavComponent } from './nav/nav.component';
-import { HomeComponent } from './home/home.component'
+import { HomeComponent } from './home/home.component';
+import { FooterComponent } from './footer/footer.component'
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HomeComponent } from './home/home.component'
     WallBreakerComponent,
     BannerComponent,
     NavComponent,
-    HomeComponent
+    HomeComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
