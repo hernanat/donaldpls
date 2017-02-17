@@ -17,12 +17,15 @@ Once you have all the requirements satisfied to run the app, you can start the b
 Start backend: 
 
 `$ cd donaldpls/backend`
+
 `$ dotnet restore`
+
 `$ dotnet run`
 
 Start frontend:
 
 `$ cd donaldpls/frontend`
+
 `$ ng serve`
 
 If all goes well, you should be able to navigate to `http://localhost:4200` and see the site up and running.
