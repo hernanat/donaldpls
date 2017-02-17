@@ -1,0 +1,14 @@
+<div class="row generator-row">
+  <h1 class = "page-header">Revelations from The Donald</h1>
+  <div class="col-md-12 col-xs-12 donald-speaking generator-col">
+    <div class="talk-bubble tri-right border round btm-left-in">
+      <div class="talktext">
+        <p *ngIf="speech">{{speech.text}}</p>
+      </div>
+    </div>
+    <div class="podium-img">
+      <img src="./images/podium.png" class="img-speech img-responsive" (click)="clicked()"/>
+      
+    </div>
+  </div>
+</div>

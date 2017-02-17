@@ -1,0 +1,108 @@
+.generator-col{
+    text-align: center;
+    padding:0;
+    margin:0;
+}
+
+.generator-row{
+    margin-top: 10px;
+}
+
+.talk-bubble {
+	margin: 40px;
+  display: inline-block;
+  position: relative;
+	max-width: 100%;
+	height: auto;
+	background-color: #fff;
+  margin-left: 25%;
+  margin-bottom: -10%;
+  opacity: 0.85;
+}
+
+.round{
+  border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+
+}
+
+
+.tri-right.border.left-top:before {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: -40px;
+	right: auto;
+  top: -8px;
+	bottom: auto;
+	border: 32px solid;
+	border-color: #666 transparent transparent transparent;
+}
+.tri-right.left-top:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: -20px;
+	right: auto;
+  top: 0px;
+	bottom: auto;
+	border: 22px solid;
+	border-color: lightyellow transparent transparent transparent;
+}
+
+.tri-right.border.btm-left-in:before {
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 30px;
+  right: auto;
+  top: auto;
+	bottom: -40px;
+	border: 20px solid;
+	border-color: #fff transparent transparent #fff;
+}
+.tri-right.btm-left-in:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 38px;
+  right: auto;
+  top: auto;
+	bottom: -20px;
+	border: 12px solid;
+	border-color: #fff transparent transparent #fff;
+}
+
+.talktext{
+  padding: 1em;
+	text-align: left;
+  line-height: 1.5em;
+}
+.talktext p{
+  
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
+
+.img-speech{
+  max-width: 40%;
+  padding:0;
+  cursor: pointer;
+
+}
+
+.btn-generator{
+  margin-top: -12%;
+  margin-left: -32%;
+}
+.page-header{
+    text-decoration: underline;
+}
+.generator-row{
+    text-align: center;
+}
