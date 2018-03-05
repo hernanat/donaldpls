@@ -1,18 +1,18 @@
-#DonaldPls
+# DonaldPls
 
-##What is this?
+## What is this?
 
 DonaldPls is a satire web project based on the shenanigans of the 45th president of the United States, Donald J. Trump.
 
 As of now, the site includes a Donald speech generator using multideep markov chains, and training texts assembled from speeches and statements by the Donald.
 
-##Requirements
+## Requirements
 
 This web app uses [.NET Core](https://www.microsoft.com/net/core#macos) for the backend and [Angular2](https://angular.io/) on the frontend. Follow the links to see how to set those up.
 
 To serve the Angular2 app, we use [Angular-CLI](https://github.com/angular/angular-cli).
 
-##Running
+## Running
 
 Clone the repo. 
 
